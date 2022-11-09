@@ -69,7 +69,7 @@ class zefoy:
         if name == 'nt':
             while True:
                 stats = livecounts.video_info(self.__item_id)
-                system('title Zefoy Bot by @aldy_meysha ^| Likes: %s Views: %s Shares: %s ^| %s ^| mode: views' % (
+                system('title Zefoy Bot by @aldy_meysha ^| Likes: %s Views: %s Shares: %s ^| %s ^| mode: shares' % (
                     stats['likeCount'], stats['viewCount'], stats['shareCount'], str(self.__item_id)
                 ))
                 
